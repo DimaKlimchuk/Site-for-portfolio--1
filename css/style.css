@@ -40,6 +40,8 @@ body{
 .wrapper{
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 ._container{
     max-width: 1046px;
@@ -112,4 +114,13 @@ body{
         line-height: 18px;
     }
     
+}
+/* -----------------------MAIN------------------------------ */
+.page{
+    flex: 1 1 auto;
+}
+
+/* -----------------------FOOTER------------------------------ */
+.footer{
+
 }
